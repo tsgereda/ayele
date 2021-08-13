@@ -14,23 +14,23 @@ nav{
   width: 100px;
   height: 50px;
   background:rgb(103, 136, 38);
-  box-shadow:crimson;
+  box-shadow:rgba(0, 0, 0, 0.068);
 }
 /* Custom Scroll Bar CSS */
 ::-webkit-scrollbar {
     width: 20px;
 }
 ::-webkit-scrollbar-track {
-    background:tomato;
+    background:rgba(54, 38, 35, 0.13);
 }
 ::-webkit-scrollbar-thumb {
-    background:tomato;
+    background:rgba(51, 39, 37, 0.123);
     border-radius: 12px;
     transition: all 0.3s ease;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background:tomato;
+    background:rgba(49, 39, 38, 0.322);
 }
 /* navbar styling */
 nav{
@@ -41,7 +41,7 @@ nav{
   font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 nav.sticky{
-  background: #538a14;
+  background: #172506;
   padding: 20px 3;
 }
 nav .navbar{
@@ -54,11 +54,11 @@ nav .navbar{
 nav .navbar .logo a{
   font-weight: 500;
   font-size: 50px;
-  color: #729414;
+  color: #14160f6b;
   background-origin:padding-box;
 }
 nav.sticky .navbar .logo a{
-  color: rgb(96, 139, 15);
+  color: rgba(24, 27, 18, 0.774);
 }
 
 nav .navbar .menu{
@@ -72,12 +72,12 @@ nav .navbar .menu li{
 .navbar .menu a{
   font-size: 20px;
   font-weight: 500;
-  color: #738814;
+  color: #060705;
   padding: 10px 5;
   transition:  0.3s ease;
 }
 .navbar .menu a:hover{
-  color: #7e8010;
+  color: #191a16;
 }
 nav.sticky .menu a{
   color:blue;
@@ -106,11 +106,20 @@ nav .menu-btn,
   transition: all 0.3s ease;
   display:ruby;
 }
+.navbar li a {
+  display: inline-block;
+  padding: .5rem 1rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: #0E2431;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
 nav .menu-btn{
   color:blue;
 }
 nav.sticky .menu-btn{
-  color: brown;
+  color: rgb(95, 83, 83);
 }
 .navbar .menu .menu-btn{
   color: black;
@@ -120,7 +129,7 @@ nav.sticky .menu-btn{
 .home{
   height: 100vh;
   width: 100%;
-  background-color:rgb(64, 174, 207);
+  background-color:rgba(234, 244, 247, 0.822);
   background-size:initial;
   background-position: center;
   background-attachment: fixed;
@@ -252,8 +261,8 @@ section .button button{
   border-radius: 4px;
   font-size: 25px;
   font-weight: 400;
-  background: #677016;
-  color: rgb(12, 71, 82);
+  background: #152842;
+  color: rgb(204, 204, 204);
   border: 2px solid transparent;
   cursor: pointer;
   transition: all 0.4s ease;
@@ -261,7 +270,7 @@ section .button button{
 section .button button:hover{
   border-color: #03050e;
   background-color: rgb(76, 97, 20);
-  color: #136962;
+  color: #dfdfdf;
 }
 
  /* My Skills CSS */
@@ -336,7 +345,7 @@ section .button button:hover{
 }
 .services .boxes .box:hover{
   background: #4680d8;
-  color: rgba(21, 202, 193, 0.479);
+  color: #fff;
 }
 .services .boxes .box .icon{
   height: 50px;
@@ -346,22 +355,22 @@ section .button button:hover{
   text-align: center;
   line-height: 50px;
   font-size: 18px;
-  color: rgba(30, 196, 196, 0.479);
+  /* color: rgba(30, 196, 196, 0.479); */
   margin: 0 auto 10px auto;
   transition: all 0.4s ease;
 }
 .boxes .box:hover .icon{
-  background-color: rgba(11, 79, 100, 0.5);
-  color: #5e8517;
+  /* background-color: rgba(11, 79, 100, 0.5); */
+  /* color: #5e8517; */
 }
 .services .boxes .box:hover .topic,
 .services .boxes .box:hover p{
-  color: #199397;
+  /* color: #199397; */
   transition: all 0.4s ease;
 }
 .services .boxes .box:hover .topic,
 .services .boxes .box:hover p{
-  color: rgb(155, 153, 26);
+  /* color: rgb(155, 153, 26); */
 }
 /* Contact Me CSS */
 .contact{
